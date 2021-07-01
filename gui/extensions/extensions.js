@@ -85,3 +85,25 @@ const thingspeak = {
     useAutoScan: false,
     helpLink: 'https://github.com/gasolin/scratch3-internet'
 };
+
+const ToastDictionary = {
+    name: '吐司圖鑑',
+    extensionId: 'toastdictionary',
+    collaborator: 'Charlie',
+    iconURL: gdxforIconURL,
+    insetIconURL: gdxforInsetIconURL,
+    description: (
+        <FormattedMessage
+            defaultMessage="你想成為吐司嗎？吐司是很棒的東西，吐司值得你擁有！"
+            description="Fetch JSON extension"
+            id="gui.extension.gasojson.description"
+        />
+    ),
+    featured: true,
+    disabled: false,
+    // bluetoothRequired: false,
+    internetConnectionRequired: true,
+    // launchPeripheralConnectionFlow: false,
+    useAutoScan: false,
+    helpLink: 'https://github.com/gasolin/scratch3-internet'
+};
