@@ -86,7 +86,7 @@ const thingspeak = {
     helpLink: 'https://github.com/gasolin/scratch3-internet'
 };
 
-const ToastDictionary = {
+const toastdictionary = {
     name: '吐司圖鑑',
     extensionId: 'toastdictionary',
     collaborator: 'Charlie',
