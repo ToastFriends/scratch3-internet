@@ -95,8 +95,8 @@ const ToastDictionary = {
     description: (
         <FormattedMessage
             defaultMessage="你想成為吐司嗎？吐司是很棒的東西，吐司值得你擁有！"
-            description="Fetch JSON extension"
-            id="gui.extension.gasojson.description"
+            description="你想成為吐司嗎？吐司是很棒的東西，吐司值得你擁有！"
+            id="gui.extension.toastdictionary.description"
         />
     ),
     featured: true,
@@ -105,5 +105,5 @@ const ToastDictionary = {
     internetConnectionRequired: true,
     // launchPeripheralConnectionFlow: false,
     useAutoScan: false,
-    helpLink: 'https://github.com/gasolin/scratch3-internet'
+    helpLink: 'https://github.com/ToastFriends'
 };
