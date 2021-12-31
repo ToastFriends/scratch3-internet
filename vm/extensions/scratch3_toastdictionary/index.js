@@ -140,7 +140,7 @@ class ToastDictionary{
 
           arguments: {
 
-            編號: {
+            number: {
 
               type: ArgumentType.STRING
 
@@ -148,7 +148,7 @@ class ToastDictionary{
 
           },
 
-          text: '看圖鑑 吐司編號 [編號]'
+          text: '看圖鑑 吐司編號 [number]'
 
         },
 
@@ -180,9 +180,9 @@ class ToastDictionary{
 
 goto (args, util){
 
-  const 編號 = args.編號;
+  const number = args.number;
 
-  location.href = ('https://dict.toastfriends.cf/' + 編號)
+  location.href = ('https://dict.toastfriends.cf/' + number)
 
   return this.write(`M0 \n`);
 
